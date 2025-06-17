@@ -1,0 +1,14 @@
+USE college;
+SELECT * FROM STUDENT;
+
+ALTER TABLE student
+ADD COLUMN age INT;
+
+ALTER TABLE student
+MODIFY age VARCHAR(2);
+
+ALTER TABLE student
+CHANGE age stu_age INT;
+
+ALTER TABLE student
+DROP COLUMN stu_age;

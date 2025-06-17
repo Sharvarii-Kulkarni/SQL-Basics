@@ -25,4 +25,9 @@ ORDER BY grade;
 SELECT city, avg(marks)
 FROM student
 GROUP BY city
-ORDER BY AVG(marks)
+ORDER BY AVG(marks);
+
+SELECT grade, count(rollno)
+from student
+group by grade
+order by grade;
